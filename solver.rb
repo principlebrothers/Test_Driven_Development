@@ -24,6 +24,8 @@ class Solver
       'fizz'
     elsif (number % 5).zero?
       'buzz'
+    else
+      number
     end
   end
 end
