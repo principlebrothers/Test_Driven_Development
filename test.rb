@@ -22,6 +22,10 @@ describe Solver do
   end
 
   it '15 is divisible by 3 and 5' do
-      expect(Solver.new.fizzbuzz(15)).to eq 'fizz_buzz'
-    end  
+    expect(Solver.new.fizzbuzz(15)).to eq 'fizz_buzz'
+  end  
+
+  it '6 is divisible by 3' do
+    expect(Solver.new.fizzbuzz(6)).to eq 'fizz'
+  end
 end
