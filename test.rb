@@ -13,6 +13,6 @@ describe Solver do
 
   it 'Test factorial method for numbers greater than zero' do
     solver = Solver.new
-    expect(solver.factorial(5)).to eq 1
+    expect(solver.factorial(5)).to eq 120
   end
 end
