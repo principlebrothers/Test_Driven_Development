@@ -22,6 +22,8 @@ class Solver
       'fizz_buzz'
     elsif (number % 3).zero?
       'fizz'
+    elsif (number % 5).zero?
+      'buzz'
     end
   end
 end
