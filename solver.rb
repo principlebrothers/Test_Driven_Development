@@ -13,7 +13,8 @@ class Solver
     end
   end
 
-  def reverse
+  def reverse_string(str)
+    str.reverse
   end
 
   def fizzbuzz
