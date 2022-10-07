@@ -15,4 +15,9 @@ describe Solver do
     solver = Solver.new
     expect(solver.factorial(5)).to eq 120
   end
+
+  it 'Test reversing string method' do
+    solver = Solver.new
+    expect(solver.reverse_string('Microverse')).to eq 'esrevorciM'
+  end
 end
