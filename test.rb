@@ -10,4 +10,9 @@ describe Solver do
     solver = Solver.new
     expect(solver.factorial(0)).to eq 1
   end
+
+  it 'Test factorial method for numbers greater than zero' do
+    solver = Solver.new
+    expect(solver.factorial(5)).to eq 1
+  end
 end
