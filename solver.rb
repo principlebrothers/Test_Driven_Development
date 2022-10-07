@@ -2,12 +2,12 @@ class Solver
   def factorial(number)
     if number.negative?
       'Please enter a number greater than zero(0)'
-    elsif number == 0
+    elsif number.zero?
       1
     else
       total = 1
-      for i in 1..number do
-        total *=i
+      (1..number).each do |i|
+        total *= i
       end
       total
     end
@@ -25,7 +25,7 @@ class Solver
     elsif (number % 5).zero?
       'buzz'
     else
-      number
+      number.to_s
     end
   end
 end

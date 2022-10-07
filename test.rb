@@ -23,7 +23,7 @@ describe Solver do
 
   it '15 is divisible by 3 and 5' do
     expect(Solver.new.fizzbuzz(15)).to eq 'fizz_buzz'
-  end  
+  end
 
   it '6 is divisible by 3' do
     expect(Solver.new.fizzbuzz(6)).to eq 'fizz'
@@ -34,6 +34,6 @@ describe Solver do
   end
 
   it '8 is not divisible by by 3 or 5' do
-    expect(Solver.new.fizzbuzz(8)).to eq 8
+    expect(Solver.new.fizzbuzz(8)).to eq '8'
   end
 end
