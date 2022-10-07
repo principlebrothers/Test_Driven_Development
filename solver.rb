@@ -20,6 +20,8 @@ class Solver
   def fizzbuzz(number)
     if (number % 5).zero? && (number % 3).zero?
       'fizz_buzz'
+    elsif (number % 3).zero?
+      'fizz'
     end
   end
 end
