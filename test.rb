@@ -32,4 +32,8 @@ describe Solver do
   it '10 is divisible by 5' do
     expect(Solver.new.fizzbuzz(10)).to eq 'buzz'
   end
+
+  it '8 is not divisible by by 3 or 5' do
+    expect(Solver.new.fizzbuzz(8)).to eq 8
+  end
 end
