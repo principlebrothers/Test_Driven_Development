@@ -28,4 +28,8 @@ describe Solver do
   it '6 is divisible by 3' do
     expect(Solver.new.fizzbuzz(6)).to eq 'fizz'
   end
+
+  it '10 is divisible by 5' do
+    expect(Solver.new.fizzbuzz(10)).to eq 'buzz'
+  end
 end
